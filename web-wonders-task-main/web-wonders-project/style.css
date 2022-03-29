@@ -1,0 +1,201 @@
+*{
+    margin:0;
+    padding:0;
+}
+.main{
+    width: 50px;
+    background-position:right;
+    background-size: cover;
+    height: 50vh; 
+    
+    
+}
+.navbar{
+    position: fixed;
+	top: 0;
+	width: 100%;
+	background: red;
+	text-align: right;
+	padding: 5px;
+	height: 50px;
+	line-height: 50px;  
+}
+.menu{
+    width:200px;
+    float:left;
+    height:50px;
+    align-content: center;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+ul{position: absolute;
+	top: 0;
+	width: 100%;
+	background: red;
+	text-align: right;
+	padding: 5px;
+	height: 50px;
+	line-height: 100px;
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size:14px;
+}
+    
+    
+ul li a{
+    text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size:15px;
+	margin: 0 20px;
+    transition: 0.4s ease-in-out;
+    
+
+}
+ul li a:hover{
+    color:black;
+}
+
+
+.virat{
+    padding-left:5px;
+    padding-right:100px;
+    padding-top:2px;
+    background:url('virat-kohli.png');
+    width:600px;
+    height:500px;
+}
+
+#leader{
+    padding-right:20px;
+}
+.content{
+   
+    padding-top:100px;
+    color:black;
+    text-align:center;
+    
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size:65px;
+    letter-spacing: 2px;
+
+}  
+.search{
+	width:330px;
+	margin: 270px;
+}  
+.srch{
+	font-family: 'Times New Roman';
+	width:200px;
+	height: 40px;
+	background: transparent;
+	border: 1px solid red;
+}
+
+#project-section {
+	background:red;
+	padding: 20px;
+	text-align: center;
+    margin-top:100px;
+    margin-bottom:100px;
+}
+#project-title{
+    font-size:25px;
+    font-family:'Gill Sans';
+    color:white;
+}
+#projects-grid {
+	display: flex;
+	justify-content: center;
+}
+
+.project-box {
+	margin: 2px;
+    
+}
+
+.project-image {
+	width: 100%;
+	height: 100%;
+	max-width: 300px;
+	max-height: 300px;
+}
+
+.project-link {
+	display: block;
+	text-decoration: none;
+	color:white;
+	background-color:red;
+	width: 100%;
+	height: 40px;
+	line-height:45px;
+	font-size: 20px;
+    text-align: center;
+    border-radius:200px ; 
+    
+}
+#project-brand{
+	background:red;
+	padding: 20px;
+	text-align: center;
+    margin-top:100px;
+    margin-bottom:100px;
+}
+#brand{
+    font-size:25px;
+    font-family:'Gill Sans';
+    color:white;
+}
+#partner {
+	display: flex;
+	justify-content: center;
+}
+
+.partner-box {
+	margin: 2px;
+    
+}
+
+.partner-image {
+	width: 100%;
+	height: 100%;
+	max-width:100px;
+	max-height:100px;
+}
+#footer-line {
+	border: 2px solid red;
+    margin-top:50px;
+}
+
+#profile-links-section {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.profile-link {
+	display: block;
+	color:black;
+	text-decoration: none;
+	margin: 10px 25px;
+}
+
+i {
+	color:black;
+}
+
+
+
+     
+        
